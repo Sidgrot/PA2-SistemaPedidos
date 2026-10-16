@@ -1,0 +1,23 @@
+package com.isil.edu.pe.spedidos.controller.dto;
+
+public class AnulacionRequest {
+    
+    private Long pedidoId;
+    private String motivo;
+
+    public Long getPedidoId() {
+        return pedidoId;
+    }
+
+    public void setPedidoId(Long pedidoId) {
+        this.pedidoId = pedidoId;
+    }
+
+    public String getMotivo() {
+        return motivo;
+    }
+
+    public void setMotivo(String motivo) {
+        this.motivo = motivo;
+    }
+}
